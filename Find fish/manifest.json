@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Fish Find",
+  "version": "1.0",
+  "description": "Detects potential phishing and lookalike domains in real-time.",
+  "permissions": [
+    "tabs",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Fish Find"
+  }
+}
